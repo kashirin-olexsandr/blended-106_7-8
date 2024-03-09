@@ -33,7 +33,19 @@ img {
 
 .header {
 }
+.container {
+  width: 1360px;
+  margin: 0 auto;
+}
+
+.header-container {
+  padding: 0 28px;
+}
+
 .nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 .header-logo {
   font-size: 35px;
@@ -46,12 +58,17 @@ img {
 }
 
 .header-list {
+  display: flex;
+  align-items: center;
+  gap: 40px;
 }
 .header-item {
 }
 .header-link {
   line-height: 1.56;
   color: #fff;
+  padding: 20px 0;
+  display: block;
 }
 .hero {
   text-align: center;
