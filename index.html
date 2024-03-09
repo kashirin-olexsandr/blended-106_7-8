@@ -4,27 +4,53 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
+      integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300..800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
   </head>
 
   <body>
-    <header>
-      <nav>
-        <a href="./index.html">Finance Ledger</a>
-        <ul>
-          <li><a href="./index.html">Home</a></li>
-          <li><a href="#about">About</a></li>
-          <li><a href="#cases">Cases</a></li>
-          <li><a href="#blog">Blog</a></li>
-          <li><a href="#contact">Contact</a></li>
+    <header class="header">
+      <nav class="nav">
+        <a class="header-logo" href="./index.html"
+          ><span class="header-logo-Finance">Finance</span> Ledger</a
+        >
+        <ul class="header-list">
+          <li class="header-item">
+            <a class="header-link" href="./index.html">Home</a>
+          </li>
+          <li class="header-item">
+            <a class="header-link" href="#about">About</a>
+          </li>
+          <li class="header-item">
+            <a class="header-link" href="#cases">Cases</a>
+          </li>
+          <li class="header-item">
+            <a class="header-link" href="#blog">Blog</a>
+          </li>
+          <li class="header-item">
+            <a class="header-link" href="#contact">Contact</a>
+          </li>
         </ul>
       </nav>
     </header>
 
     <main>
-      <section id="about">
-        <h1>The Sky Is The Limit</h1>
-        <p>We provide world class financial assistance</p>
-        <button type="button">Read More</button>
+      <section class="hero" id="about">
+        <h1 class="hero-title">The Sky Is The Limit</h1>
+        <p class="hero-text">We provide world class financial assistance</p>
+        <button class="hero-btn" type="button">Read More</button>
       </section>
 
       <section>
@@ -97,7 +123,7 @@
           </li>
         </ul>
       </section>
-<section id="post">
+      <section id="post">
         <p>April 16 2020</p>
         <h2>Blog Post One</h2>
         <p>
