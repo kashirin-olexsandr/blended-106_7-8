@@ -105,3 +105,48 @@ img {
   border-radius: 5px;
   border: none;
 }
+
+.cases {
+  background: #fff;
+}
+
+.container-cases {
+  padding: 80px 0;
+}
+
+.cases-wrap {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  margin-bottom: 24px;
+}
+
+.cases-subtitle {
+  font-size: 20px;
+  line-height: 1.65;
+  text-align: center;
+  color: #333;
+}
+.cases-title {
+  font-weight: 300;
+  font-size: 38px;
+  line-height: 1.26;
+  text-align: center;
+  color: #333;
+}
+.cases-text {
+  font-size: 18px;
+  line-height: 1.57;
+  text-align: center;
+  color: #333;
+}
+.cases-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 24px 21px;
+}
+.cases-list-item {
+}
+.cases-img {
+}
